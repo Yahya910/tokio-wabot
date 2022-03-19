@@ -8,8 +8,8 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!name) throw 'Name cannot be empty (Alphanumeric)'
   if (!age) throw 'Age cannot be empty (number)'
   age = parseInt(age)
-  if (age > 120) throw 'Age too old 😂'
-  if (age < 5) throw 'Age too low ._.'
+  if (age > 120) throw 'هاهاها انت كبير'
+  if (age < 5) throw 'صفير مرة روح نام._.'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
@@ -18,10 +18,10 @@ let handler = async function (m, { text, usedPrefix }) {
   m.reply(`
 Register successfully!
 
-╭─「 Info 」
-│ Name: ${name}
-│ Age: ${age} 
-│ SN: ${sn}
+╭─「 المعلومات 」
+│ الاسم: ${name}
+│ العمر: ${age} 
+│ الكود: ${sn}
 ╰────
 `.trim())
 }
