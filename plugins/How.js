@@ -9,9 +9,9 @@ how ${command.replace('how', '').toUpperCase()} *${text}* ❓\n
     }
   } : {})
 }
-handler.help = ['gay', 'smart', 'beautiful', 'handsome', 'mc', 'crazy', 'lesbian', 'pagal', 'simp', 'bhadwa', 'chutiya'].map(v => 'how' + v + ' @user')
+handler.help = ['zaml', 'm9hbn', 'zwin', 'mc', 'crazy', 'lesbian', 'pagal', 'simp', 'bhadwa', 'chutiya'].map(v => 'how' + v + ' @user')
 handler.tags = ['fun']
-handler.command = /^how(gay|smart|beautiful|handsome|mc|crazy|lesbian|pagal|simp|bhadwa|chutiya)/i
+handler.command = /^ch7al(zaml|m9hbn|zwin|handsome|mc|crazy|lesbian|pagal|simp|bhadwa|chutiya)/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
